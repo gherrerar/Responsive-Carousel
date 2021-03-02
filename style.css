@@ -158,7 +158,7 @@ img {
     display: block;
     bottom: 0;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     background: linear-gradient(0deg, rgba(18,18,18,0.8855917366946778) 0%, rgba(10,10,10,0.5578606442577031) 41%, rgba(9,9,9,0.4542191876750701) 58%, rgba(5,5,5,0.30015756302521013) 75%, rgba(0,0,0,0) 100%);
     z-index: 11;
 }
@@ -187,7 +187,7 @@ img {
     position: fixed;
     display: block;
     bottom: 4rem;
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
     color: #ffffff;
     text-align: center;
@@ -275,6 +275,10 @@ h3::before {
     .slider-carousel {
         width: 100%;
     }
+
+    .modal-target::after {
+        height: 35rem;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -286,6 +290,13 @@ h3::before {
 
     h1 {
         font-size: 6rem;
+    }
+
+    .modal-target::after {
+        height: 20rem;
+    }
+    .caption {
+        font-size: 2rem;
     }
 }
 
@@ -315,5 +326,9 @@ h3::before {
     h3::after, h3::before {
         margin-top: 6px;
         width: 8rem;
+    }
+
+    .caption {
+        font-size: 2rem;
     }
 }

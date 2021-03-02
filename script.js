@@ -1,3 +1,7 @@
+window.onload = function(){
+    location.href = "#slide_1"
+}
+
 let thumbs = document.querySelectorAll(".image-cell")
 
 for (let i = 0; i < thumbs.length; i++){
