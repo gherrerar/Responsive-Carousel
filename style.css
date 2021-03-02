@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 2rem;
 }
 body::-webkit-scrollbar-track {
-    background: none;
+    background: transparent;
 }
 
 img {
@@ -133,6 +133,7 @@ img {
     line-height: 5rem;
     opacity: 1;
     cursor: pointer;
+    z-index: 12;
     transition: color 200ms ease-in-out;
 }
 .closeBtn:hover {
